@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-        <body>
+        <body className={"bg-[var(--background)] text-[var(--text-color)] px-20 py-5"}>
         {children}
         <Footer />
         <Analytics />
