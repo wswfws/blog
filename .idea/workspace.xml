@@ -4,13 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c767dddb-7a46-4b2a-81a7-6bc0072330e9" name="Changes" comment="pretty border">
-      <change afterPath="$PROJECT_DIR$/components/ArticleLabel.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/Article.ts" afterDir="false" />
+    <list default="true" id="c767dddb-7a46-4b2a-81a7-6bc0072330e9" name="Changes" comment="add article routing and label component">
+      <change afterPath="$PROJECT_DIR$/app/articles/[slug]/page.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/license/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/license/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/AppRouter.ts" beforeDir="false" afterPath="$PROJECT_DIR$/components/AppRouter.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/ArticleLabel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ArticleLabel.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,29 +50,30 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.Next.js: debug client-side.executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
-    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/programming/blog/app&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.chat.ChatConfigurable&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\programming\\blog\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.Next.js: debug client-side.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "last_opened_file_path": "C:/programming/blog/app/articles/[slug]",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.Next.js: server-side.executor": "Run",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.chat.ChatConfigurable",
+    "ts.external.directory.path": "C:\\programming\\blog\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\programming\blog\app\articles\[slug]" />
       <recent name="C:\programming\blog\app" />
       <recent name="C:\programming\blog\public" />
     </key>
@@ -123,6 +123,7 @@
       <workItem from="1761322536858" duration="10000" />
       <workItem from="1761498157741" duration="37000" />
       <workItem from="1766318596173" duration="1560000" />
+      <workItem from="1766320220900" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <option name="closed" value="true" />
@@ -164,11 +165,30 @@
       <option name="project" value="LOCAL" />
       <updated>1758301412133</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add article routing and label component">
+      <option name="closed" value="true" />
+      <created>1766320621393</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1766320621393</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gitignore" />
@@ -176,7 +196,8 @@
     <MESSAGE value="add license" />
     <MESSAGE value="add Analytics" />
     <MESSAGE value="pretty border" />
-    <option name="LAST_COMMIT_MESSAGE" value="pretty border" />
+    <MESSAGE value="add article routing and label component" />
+    <option name="LAST_COMMIT_MESSAGE" value="add article routing and label component" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

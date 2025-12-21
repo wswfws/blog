@@ -1,6 +1,6 @@
 export default function LicensePage() {
     return (
-        <main className="container mx-auto px-4 py-10 text-gray-800">
+        <main className="container mx-auto px-4 py-10 text-gray-200">
             <h1 className="text-2xl font-bold mb-4">Лицензия</h1>
             <p className="mb-4">
                 Все материалы, размещённые на сайте danilthoughts.vercel.app, защищены авторским правом.

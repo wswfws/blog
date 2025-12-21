@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Article from "@/types/Article";
+import AppRouter from "@/components/AppRouter";
 
 type ArticleLabelProps = {
   article: Article;
