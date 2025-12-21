@@ -1,4 +1,6 @@
-const whyLazyToWriteBlogPost: Article = {
+import IArticle from "@/types/IArticle";
+
+const whyLazyToWriteBlogPost: IArticle = {
   slug: "why-lazy-to-write-blog-post",
   title: "Почему мне лень писать статейку в блог",
   description: "Узнаем почему автору лень писать статьи.",

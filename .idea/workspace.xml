@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c767dddb-7a46-4b2a-81a7-6bc0072330e9" name="Changes" comment="update ArticlePage to handle async params and display article title">
-      <change afterPath="$PROJECT_DIR$/articles/why-lazy-to-write-blog-post.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/articles/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/ArticleLabel.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/components/ArticleLabel.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/types/Article.ts" beforeDir="false" afterPath="$PROJECT_DIR$/types/IArticle.ts" afterDir="false" />
+    <list default="true" id="c767dddb-7a46-4b2a-81a7-6bc0072330e9" name="Changes" comment="refactor Article types and update ArticlePage to display article content">
+      <change beforePath="$PROJECT_DIR$/articles/why-lazy-to-write-blog-post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/articles/why-lazy-to-write-blog-post.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +119,7 @@
       <workItem from="1761322536858" duration="10000" />
       <workItem from="1761498157741" duration="37000" />
       <workItem from="1766318596173" duration="1560000" />
-      <workItem from="1766320220900" duration="3379000" />
+      <workItem from="1766320220900" duration="3523000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <option name="closed" value="true" />
@@ -190,7 +185,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766321350968</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="refactor Article types and update ArticlePage to display article content">
+      <option name="closed" value="true" />
+      <created>1766323769911</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1766323769911</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +219,8 @@
     <MESSAGE value="add article routing and label component" />
     <MESSAGE value="add AppRouter export and update ArticleLabel component" />
     <MESSAGE value="update ArticlePage to handle async params and display article title" />
-    <option name="LAST_COMMIT_MESSAGE" value="update ArticlePage to handle async params and display article title" />
+    <MESSAGE value="refactor Article types and update ArticlePage to display article content" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor Article types and update ArticlePage to display article content" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
