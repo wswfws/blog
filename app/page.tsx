@@ -1,13 +1,9 @@
 import ArticleLabel from "@/components/ArticleLabel";
-import Article from "@/types/Article";
+import IArticle from "@/types/IArticle";
+import whyLazyToWriteBlogPost from "@/articles/why-lazy-to-write-blog-post";
 
-const articles: Article[] = [
-  {
-    slug: "railway-boom-19-century",
-    title: "Железнодорожный бум XIX века",
-    description:
-      "Как развитие железных дорог повлияло на транспорт и экономику.",
-  },
+const articles: IArticle[] = [
+  whyLazyToWriteBlogPost
 ];
 
 export default function HomePage() {

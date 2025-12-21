@@ -1,9 +1,9 @@
 import Link from "next/link";
-import Article from "@/types/Article";
+import IArticle from "@/types/IArticle";
 import AppRouter from "@/components/AppRouter";
 
 type ArticleLabelProps = {
-  article: Article;
+  article: IArticle;
 };
 
 export default function ArticleLabel({article}: ArticleLabelProps) {
