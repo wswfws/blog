@@ -1,17 +1,12 @@
 import ArticleLabel from "@/components/ArticleLabel";
-import IArticle from "@/types/IArticle";
-import whyLazyToWriteBlogPost from "@/articles/why-lazy-to-write-blog-post";
-
-const articles: IArticle[] = [
-  whyLazyToWriteBlogPost
-];
+import allPosts from "@/articles";
 
 export default function HomePage() {
   return (
     <main className="container min-h-screen">
       <Header/>
       <div className="flex flex-row flex-wrap">
-        {articles.map((article) => <ArticleLabel article={article} key={article.slug}/>)}
+        {allPosts.map((article) => <ArticleLabel article={article} key={article.slug}/>)}
       </div>
     </main>
   );

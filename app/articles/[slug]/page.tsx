@@ -1,18 +1,34 @@
-import whyLazyToWriteBlogPost from "@/articles/why-lazy-to-write-blog-post";
-import IArticle from "@/types/IArticle";
+import allPosts from "@/articles";
 
-export default async function ArticlePage({params}: {
-  params: Promise<{ slug: string }>
+export default function ArticlePage({params,}: {
+  params: { slug: string };
 }) {
+  const {slug} = params;
 
-  const {slug} = await params;
+  const article = allPosts.find(a => a.slug === slug);
 
-  const article = [whyLazyToWriteBlogPost].find(a => a.slug === slug) as IArticle;
+  if (!article) {
+    return (
+      <main className="container mx-auto px-4 py-10 text-gray-200">
+        пост не найден
+      </main>
+    );
+  }
 
   return (
     <main className="container mx-auto px-4 py-10 text-gray-200">
       <h1 className="text-3xl font-bold mb-6">{article.title}</h1>
-      <div className="prose prose-invert max-w-none" dangerouslySetInnerHTML={{__html: article.text}}/>
+      <article
+        className="prose prose-invert max-w-none"
+        dangerouslySetInnerHTML={{__html: article.text}}
+      />
     </main>
   );
+}
+
+
+export async function generateStaticParams() {
+  return allPosts.map(post => ({
+    slug: post.slug,
+  }));
 }
