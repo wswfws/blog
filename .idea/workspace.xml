@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c767dddb-7a46-4b2a-81a7-6bc0072330e9" name="Changes" comment="add why-write-article-if-lazy and SSG">
-      <change afterPath="$PROJECT_DIR$/app/articles/[slug]/articles.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/articles/students-driving-gpt-search-growth.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/articles/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/[slug]/page.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/articles/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/articles/why-write-article-if-lazy.ts" beforeDir="false" afterPath="$PROJECT_DIR$/articles/why-write-article-if-lazy.ts" afterDir="false" />
+    <list default="true" id="c767dddb-7a46-4b2a-81a7-6bc0072330e9" name="Changes" comment="add students-driving-gpt-search-growth">
+      <change beforePath="$PROJECT_DIR$/articles/students-driving-gpt-search-growth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/articles/students-driving-gpt-search-growth.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +139,7 @@
       <workItem from="1766318596173" duration="1560000" />
       <workItem from="1766320220900" duration="3523000" />
       <workItem from="1766580514624" duration="3312000" />
-      <workItem from="1767853622746" duration="1042000" />
+      <workItem from="1767853622746" duration="1262000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <option name="closed" value="true" />
@@ -227,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1766581980876</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="add students-driving-gpt-search-growth">
+      <option name="closed" value="true" />
+      <created>1767854731763</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1767854731763</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -255,7 +257,8 @@
     <MESSAGE value="update ArticlePage to handle async params and display article title" />
     <MESSAGE value="refactor Article types and update ArticlePage to display article content" />
     <MESSAGE value="add why-write-article-if-lazy and SSG" />
-    <option name="LAST_COMMIT_MESSAGE" value="add why-write-article-if-lazy and SSG" />
+    <MESSAGE value="add students-driving-gpt-search-growth" />
+    <option name="LAST_COMMIT_MESSAGE" value="add students-driving-gpt-search-growth" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>

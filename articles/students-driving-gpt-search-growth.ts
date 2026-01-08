@@ -111,6 +111,8 @@ const studentsDrivingGPT: IArticle = {
         P.S. Когда в следующий раз увидите очередной "взрывной рост GPT",<br>
         посмотрите на календарь. Скорее всего, сейчас сентябрь.
     </p>
+    
+    <a href="https://wordstat.yandex.ru/?region=all&view=graph&words=gpt">Статистика тут</a>
 </article>
 `
 };
