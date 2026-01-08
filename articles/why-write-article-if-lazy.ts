@@ -7,7 +7,7 @@ const whyWriteArticleIfLazy: IArticle = {
   description: "Узнаем почему автор продолжает писать, если ему лень",
   text:`
 <article>
-    <p><strong>#блог</strong></p>
+    <code>#блог</code>
 
     <p>
         Если мне лень, то зачем я вообще пишу?<br>

@@ -1,4 +1,5 @@
 import allPosts from "@/articles";
+import "./articles.css"
 
 export default function ArticlePage({params,}: {
   params: { slug: string };
