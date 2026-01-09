@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 :root {
-    --background: #171717;
-    --text-color: white;
+    --palitra-1: #020608;
+    --palitra-2: #1C252B;
+    --palitra-3: #486B85;
+    --palitra-4: #93B4BC;
+    --palitra-5: #CAD2CB;
+
+    --background: var(--palitra-1);
+    --text-color: var(--palitra-5);
     --angle: 0deg; /* угол старта */
 }
 

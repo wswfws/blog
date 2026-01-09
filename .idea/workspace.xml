@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c767dddb-7a46-4b2a-81a7-6bc0072330e9" name="Changes" comment="add students-driving-gpt-search-growth">
-      <change beforePath="$PROJECT_DIR$/articles/students-driving-gpt-search-growth.ts" beforeDir="false" afterPath="$PROJECT_DIR$/articles/students-driving-gpt-search-growth.ts" afterDir="false" />
+    <list default="true" id="c767dddb-7a46-4b2a-81a7-6bc0072330e9" name="Changes" comment="edit students-driving-gpt-search-growth">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/articles/[slug]/articles.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/[slug]/articles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/articles/[slug]/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/articles/[slug]/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/articles/why-lazy-to-write-blog-post.ts" beforeDir="false" afterPath="$PROJECT_DIR$/articles/why-lazy-to-write-blog-post.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,29 +52,29 @@
     <option name="sortByType" value="true" />
     <option name="sortKey" value="BY_TYPE" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.Next.js: debug client-side.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "js.debugger.nextJs.config.created.client": "true",
-    "js.debugger.nextJs.config.created.server": "true",
-    "last_opened_file_path": "C:/programming/blog/app/articles/[slug]",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "npm.Next.js: server-side.executor": "Run",
-    "npm.build.executor": "Run",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.chat.ChatConfigurable",
-    "ts.external.directory.path": "C:\\programming\\blog\\node_modules\\typescript\\lib",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.Next.js: debug client-side.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;js.debugger.nextJs.config.created.client&quot;: &quot;true&quot;,
+    &quot;js.debugger.nextJs.config.created.server&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/programming/blog/app/articles/[slug]&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;npm.Next.js: server-side.executor&quot;: &quot;Run&quot;,
+    &quot;npm.build.executor&quot;: &quot;Run&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.github.copilot.settings.chat.ChatConfigurable&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\programming\\blog\\node_modules\\typescript\\lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\programming\blog\app\articles\[slug]" />
@@ -139,7 +144,8 @@
       <workItem from="1766318596173" duration="1560000" />
       <workItem from="1766320220900" duration="3523000" />
       <workItem from="1766580514624" duration="3312000" />
-      <workItem from="1767853622746" duration="1262000" />
+      <workItem from="1767853622746" duration="8528000" />
+      <workItem from="1767940241778" duration="915000" />
     </task>
     <task id="LOCAL-00001" summary="gitignore">
       <option name="closed" value="true" />
@@ -229,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1767854731763</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="edit students-driving-gpt-search-growth">
+      <option name="closed" value="true" />
+      <created>1767854951635</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1767854951635</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -258,7 +272,8 @@
     <MESSAGE value="refactor Article types and update ArticlePage to display article content" />
     <MESSAGE value="add why-write-article-if-lazy and SSG" />
     <MESSAGE value="add students-driving-gpt-search-growth" />
-    <option name="LAST_COMMIT_MESSAGE" value="add students-driving-gpt-search-growth" />
+    <MESSAGE value="edit students-driving-gpt-search-growth" />
+    <option name="LAST_COMMIT_MESSAGE" value="edit students-driving-gpt-search-growth" />
   </component>
   <component name="github-copilot-workspace">
     <instructionFileLocations>
