@@ -1,16 +1,30 @@
 @import "tailwindcss";
 
 :root {
-    --palitra-1: #020608;
-    --palitra-2: #1C252B;
+    --palitra-1: #CAD2CB;
+    --palitra-2: #93B4BC;
     --palitra-3: #486B85;
-    --palitra-4: #93B4BC;
-    --palitra-5: #CAD2CB;
+    --palitra-4: #1C252B;
+    --palitra-5: #020608;
 
     --background: var(--palitra-1);
     --text-color: var(--palitra-5);
     --angle: 0deg; /* угол старта */
 }
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --palitra-1: #020608;
+        --palitra-2: #1C252B;
+        --palitra-3: #486B85;
+        --palitra-4: #93B4BC;
+        --palitra-5: #CAD2CB;
+
+        --background: var(--palitra-1);
+        --text-color: var(--palitra-5);
+    }
+}
+
 
 @property --angle {
     syntax: "<angle>";
@@ -41,3 +55,10 @@
 }
 
 
+h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin: 0 0 1rem 0;
+    line-height: 1.2;
+    color: var(--text-color);
+}

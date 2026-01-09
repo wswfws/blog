@@ -1,9 +1,9 @@
 export default function Footer() {
     return (
-        <footer className="w-full bg-gray-900 text-gray-300 py-6 mt-12">
+        <footer className="w-full border-2 border-[var(--palitra-2)] rounded-xl py-6 mt-12">
             <div className="container mx-auto px-4 flex flex-col items-center gap-2 text-sm">
                 <p>© {new Date().getFullYear()} Данил Еценков. Все права защищены.</p>
-                <p className="text-xs text-gray-400">
+                <p className="text-xs text-[var(--palitra-4)]">
                     Контент на этом сайте лицензирован по{" "}
                     <a
                         href="/license"
