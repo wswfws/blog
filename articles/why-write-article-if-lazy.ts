@@ -1,11 +1,7 @@
 import IArticle from "@/types/IArticle";
+import generateTags from "@/lib/generateTags";
 
-const whyWriteArticleIfLazy: IArticle = {
-  date: "2025-12-24",
-  slug: "why-write-article-if-lazy",
-  title: "Зачем я пишу в блог, если мне лень",
-  description: "Узнаем почему автор продолжает писать, если ему лень",
-  text:`
+const text = `
 <article>
     <code>#блог</code>
 
@@ -33,7 +29,15 @@ const whyWriteArticleIfLazy: IArticle = {
         </li>
     </ol>
 </article>
-`
+`;
+
+const whyWriteArticleIfLazy: IArticle = {
+  date: "2025-12-24",
+  slug: "why-write-article-if-lazy",
+  title: "Зачем я пишу в блог, если мне лень",
+  description: "Узнаем почему автор продолжает писать, если ему лень",
+  text,
+  tags: generateTags(text),
 }
 
 export default whyWriteArticleIfLazy;

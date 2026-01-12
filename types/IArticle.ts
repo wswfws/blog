@@ -4,6 +4,7 @@ type IArticle = {
   description: string;
   date: string;
   text: string;
+  tags?: string[];
 };
 
 export default IArticle;

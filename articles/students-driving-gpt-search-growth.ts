@@ -1,11 +1,7 @@
 import IArticle from "@/types/IArticle";
+import generateTags from "@/lib/generateTags";
 
-const studentsDrivingGPT: IArticle = {
-  date: "2026-01-08",
-  slug: "students-driving-gpt-search-growth",
-  title: "Студенты двигают GPT: как учебный год формирует поисковые тренды",
-  description: "Анализ сезонности запросов про GPT показывает — студенты становятся главной силой роста популярности нейросетей",
-  text: `
+const text = `
 <article >
     <code>#GPT</code> <code>#образование</code>
 
@@ -114,7 +110,15 @@ const studentsDrivingGPT: IArticle = {
     
     <a href="https://wordstat.yandex.ru/?region=all&view=graph&words=gpt">Статистика тут</a>
 </article>
-`
+`;
+
+const studentsDrivingGPT: IArticle = {
+  date: "2026-01-08",
+  slug: "students-driving-gpt-search-growth",
+  title: "Студенты двигают GPT: как учебный год формирует поисковые тренды",
+  description: "Анализ сезонности запросов про GPT показывает — студенты становятся главной силой роста популярности нейросетей",
+  text,
+  tags: generateTags(text),
 };
 
 export default studentsDrivingGPT;
