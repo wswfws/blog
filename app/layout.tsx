@@ -1,26 +1,28 @@
 import type {Metadata} from "next";
 import "./globals.css";
 import Footer from "@/components/Footer";
-import { Analytics } from "@vercel/analytics/next"
+import {Analytics} from "@vercel/analytics/next"
+import Header from "@/components/Header";
 
 
 export const metadata: Metadata = {
-    title: "Блог Данила",
-    description: "Тут я буду выкладывать мои мысли по жизни",
+  title: "Блог Данила",
+  description: "Тут я буду выкладывать мои мысли по жизни",
 };
 
 export default function RootLayout({
-                                       children,
+                                     children,
                                    }: Readonly<{
-    children: React.ReactNode;
+  children: React.ReactNode;
 }>) {
-    return (
-        <html lang="en">
-        <body className={"bg-[var(--background)] text-[var(--text-color)] sm:px-20 px-1 py-5"}>
-        {children}
-        <Footer />
-        <Analytics />
-        </body>
-        </html>
-    );
+  return (
+    <html lang="en">
+    <body className={"bg-[var(--background)] text-[var(--text-color)] sm:px-20 px-1 py-5"}>
+    <Header/>
+    {children}
+    <Footer/>
+    <Analytics/>
+    </body>
+    </html>
+  );
 }

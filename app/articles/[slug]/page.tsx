@@ -10,13 +10,13 @@ export default function ArticlePage({params,}: {
 
   if (!article) {
     return (
-      <main className="container mx-auto sm:px-4 py-10 text-gray-200">
+      <main className="container text-gray-200">
         пост не найден
       </main>
     );
   }
   return (
-    <main className="container mx-auto px-4 py-10 text-gray-200">
+    <main className="container text-gray-200">
       <h1 className="text-3xl font-bold mb-6">{article.title}</h1>
       <div
         className="prose prose-invert max-w-none"
