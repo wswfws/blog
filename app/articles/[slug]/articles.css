@@ -124,11 +124,11 @@ article a {
     border-bottom: 1px solid transparent;
     transition: all 0.2s ease;
     padding-bottom: 1px;
+    border-bottom-color: var(--palitra-3);
 }
 
 article a:hover {
     color: var(--palitra-3);
-    border-bottom-color: var(--palitra-3);
 }
 
 /* ===== ИЗОБРАЖЕНИЯ ===== */
